@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+    <title>🎂 С Днём Рождения, Роман!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="envelopeScreen" class="envelope-screen">
+        <div class="envelope-container">
+            <div class="envelope" id="envelope">
+                <div class="envelope-front">
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-body">
+                        <div class="envelope-design"></div>
+                        <div class="stamp">
+                            <span class="stamp-text">🎂</span>
+                        </div>
+                        <div class="to-label">
+                            <div class="label-text">Для:</div>
+                            <div class="name-highlight">Романа</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="envelope-back">
+                    <div class="envelope-message">
+                        <div class="message-icon">✨</div>
+                        <div class="message-text">С ДР!</div>
+                        <div class="message-hint">✨</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="open-instruction">
+                <div class="instruction-text">Нажми на конверт, чтобы получить счастье</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cardContent" class="card-content-wrapper">
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <div class="header">
+                        <h1 class="title">🎉 С Днём Рождения! 🎉</h1>
+                        <div class="hearts">
+                            <div class="heart">❤️</div>
+                            <div class="heart">💖</div>
+                            <div class="heart">💕</div>
+                        </div>
+                    </div>
+                    
+                    <div class="main-content">
+                        <div class="cake-section">
+                            <div class="cake" id="interactiveCake">
+                                <div class="cake-layer bottom"></div>
+                                <div class="cake-layer middle"></div>
+                                <div class="cake-layer top"></div>
+                                <div class="candle">
+                                    <div class="candle-stick"></div>
+                                    <div class="flame" id="flame"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="slider-controls">
+                                <div class="slider-group">
+                                    <div class="slider-header">
+                                        <span class="slider-icon">✨</span>
+                                        <label>Зажечь свечу:</label>
+                                        <span class="slider-value" id="candleValue">Выкл</span>
+                                    </div>
+                                    <input type="range" class="range-slider" id="candleSlider" min="0" max="1" step="1" value="0">
+                                </div>
+                                <div class="cake-hint">
+                                    <span class="hint-icon">👇</span>
+                                    <span class="hint-text">Нажимай на торт для пожеланий и эффектов</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="message-section">
+                            <div class="greeting-message">
+                                <h2>Дорогой <span id="displayName" class="highlight">Роман</span>!</h2>
+                                <p class="wish">Пусть сегодня сбудутся все мечты,<br>А каждый миг приносит лишь добро!<br>Удачи, денег, радости, любви,<br>И чтобы жизнь была как волшебство!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
