@@ -87,7 +87,7 @@ class BirthdayCard {
         this.initCakeInteraction();
         
         setTimeout(() => {
-            this.showMessage("🎉 С Днём Рождения, высоковозрастная, низковатая,  и обворожительная Валерия!");
+            this.showMessage("🎉 С Днём Рождения, высоковозрастная и обворожительная Валерия!");
         }, 500);
         
         setTimeout(() => {
